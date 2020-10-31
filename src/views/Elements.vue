@@ -2,8 +2,6 @@
   <div class="elements">
     <h1>Elements</h1>
 
-    <h3>logo</h3>
-    <Iconlogo class="logo" />
     <h3>Buttonlar</h3>
 
     <router-link to="/" class="button-m">
@@ -13,13 +11,9 @@
 </template>
 
 <script>
-import Iconlogo from "../icons/logo.svg";
-
 export default {
   name: "Elements",
-  components: {
-    Iconlogo
-  }
+  components: {}
 };
 </script>
 

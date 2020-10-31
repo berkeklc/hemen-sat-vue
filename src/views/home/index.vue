@@ -1,8 +1,7 @@
 <template>
   <div class="home">
-    <Iconlogo class="logo" />
-
-    <img alt="Vue logo" src="@/assets/bannerr.png" />
+    <img class="banner" alt="banner" src="@/assets/bannerr.png" />
+    <OrangeBg width="1920" class="orangebg" />
     <HelloWorld msg="Hemen Sat " />
   </div>
 </template>
@@ -10,21 +9,25 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-import Iconlogo from "@/icons/logo.svg";
-
+import OrangeBg from "@/icons/orangebg.svg";
 export default {
   name: "Home",
   components: {
     HelloWorld,
-    Iconlogo
+    OrangeBg
   }
 };
 </script>
 
-<style scoped> 
-.logo {
-  height: var(--logo-height);
-  margin-top: 20px;
+<style scoped>
+.banner {
+  height: 100vh;
+  width: 100%;
+}
+.orangebg {
+  position: var(--absolute);
+  right: 0;
+  height:100vh;
 }
 .button-m {
   background: rgb(var(--buton-orange));

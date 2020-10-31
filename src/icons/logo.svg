@@ -56,7 +56,7 @@
             <text
               id="carnow"
               transform="translate(0.093 198.181)"
-              fill="#000"
+              fill="#fff"
               font-size="201"
               font-family="SegoeUI, Segoe UI"
             >
@@ -68,7 +68,7 @@
           id="buy_._sell_._Rent"
           data-name="buy . sell . Rent"
           transform="translate(1529 1008)"
-          fill="#000"
+          fill="#fff"
           font-size="57"
           font-family="SegoeUI, Segoe UI"
           letter-spacing="0.1em"

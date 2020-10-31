@@ -1,8 +1,10 @@
 :root {
-  --logo-height: 100px;
+  --logo-height: 150px;
 
   --buton-orange: 255, 176, 91;
   --buton-color: 255, 255, 255;
-
+  --margin30:30px;
+  --absolute:absolute;
+  --relative:relative;
 }
  

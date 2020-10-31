@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Iconlogo class="logo" />
 
     <HelloWorld msg="Hesabım " />
 
@@ -26,13 +25,11 @@
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
-import Iconlogo from "@/icons/logo.svg";
 
 export default {
   name: "Profile",
   components: {
     HelloWorld,
-    Iconlogo
   }
 };
 </script>
