@@ -1,18 +1,19 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/bannerr.png" />
-    <HelloWorld msg="Hemen Sat " />
+    <HelloWorld msg="Arkadaşları davet et " />
   </div>
-</template> 
+</template>
 
 <script>
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 
 export default {
-  name: "Home",
+  name: "ProfileInvite",
   components: {
     HelloWorld
   }
 };
 </script>
+
+<style scoped></style>

@@ -2,6 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Ana</router-link> |
+      <router-link to="/profile">Hesabım</router-link> |
       <router-link to="/about">About</router-link> |
       <router-link to="/elements">Elements</router-link>
     </div>

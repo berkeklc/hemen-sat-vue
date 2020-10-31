@@ -1,29 +1,27 @@
 <template>
-  <div class="elements">
-    <h1>Elements</h1>
-
-    <h3>logo</h3>
+  <div class="home">
     <Iconlogo class="logo" />
-    <h3>Buttonlar</h3>
 
-    <router-link to="/" class="button-m">
-      Yeni ihale Başlat
-    </router-link>
+    <img alt="Vue logo" src="@/assets/bannerr.png" />
+    <HelloWorld msg="Hemen Sat " />
   </div>
 </template>
 
 <script>
-import Iconlogo from "../icons/logo.svg";
+// @ is an alias to /src
+import HelloWorld from "@/components/HelloWorld.vue";
+import Iconlogo from "@/icons/logo.svg";
 
 export default {
-  name: "Elements",
+  name: "Home",
   components: {
+    HelloWorld,
     Iconlogo
   }
 };
 </script>
 
-<style scoped>
+<style scoped> 
 .logo {
   height: var(--logo-height);
   margin-top: 20px;
