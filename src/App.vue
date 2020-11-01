@@ -7,7 +7,6 @@
 
 <script>
 import MasterHeader from "@/components/Header";
-
 export default {
   name: "App",
   components: {
