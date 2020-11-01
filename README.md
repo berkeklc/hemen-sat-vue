@@ -5,10 +5,15 @@
 - [x] Vue-cli ile proje kurulumu
 - [x] Sayfa elemanlarının oluşturulması.
 - [x] Sayfaları oluşturalım. Master-Page oluşturalım
-- [ ] Anasayfa için layout oluşturalım.
-- [ ] Anasayfa'daki card  componenti.
-- [ ] Profil sayfası ve sekmeler için route ayarı
-
+- [x] Anasayfa için layout oluşturalım.
+- [x] Profil sayfası ve sekmeler için route ayarı
+- [] Anasayfa'daki card  componenti.
+- [] Giriş ve kayıt olma sayfaları 
+- [] Kredi kartı ekleme sayfaları
+- [] Araç ekleme sayfaları
+- [] İhale sayfaları
+- [] Search  modal
+- [] Sorgulama sayfaları
 ## Project setup, development and build
 
 ```
