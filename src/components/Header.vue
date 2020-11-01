@@ -6,7 +6,7 @@
       </router-link>
     </div>
     <div class="menu">
-      <router-link to="/about" style="margin-right: 15x;"
+      <router-link to="/about" style="margin-right: 15px;"
         >İhalelere göz at</router-link
       >
       |
@@ -46,8 +46,7 @@ export default {
 <style scoped>
 .searchicon {
   position: relative;
-  top: 13px;
-  left: -57px;
+  left: -50px;
 }
 .searchform {
   display: unset;
@@ -60,7 +59,7 @@ export default {
   color: white;
   padding: 14px 15px;
   border-radius: 20px;
-  width: 200px;
+  width: 220px;
 }
 .searchform ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
