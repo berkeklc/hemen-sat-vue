@@ -2,7 +2,7 @@
   <div class="home">
     <img class="banner" alt="banner" src="@/assets/bannerr.png" />
     <OrangeBg width="1920" class="orangebg" />
-    <Container>
+    <b-container class="bv-example-row">
       <div>
         <h1 class="mt-5">Vitrin</h1>
       </div>
@@ -14,6 +14,8 @@
             img-top
             img-src="https://picsum.photos/600/300/?image=25"
           >
+            <FavIcon />
+            <ShareIcon />
             <b-card-body>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
               viverra nunc sapien, non rhoncus elit tincidunt vitae.
@@ -66,19 +68,21 @@
           </b-card-text>
         </b-card>
       </div>
-    </Container>
+    </b-container>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
 import OrangeBg from "@/icons/orangebg.svg";
-import Container from "@/components/Container";
+import FavIcon from "@/icons/fav.svg";
+import ShareIcon from "@/icons/share.svg";
 export default {
   name: "Home",
   components: {
-    Container,
-    OrangeBg
+    OrangeBg,
+    FavIcon,
+    ShareIcon
   }
 };
 </script>
