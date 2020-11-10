@@ -7,8 +7,8 @@
 - [x] Sayfaları oluşturalım. Master-Page oluşturalım
 - [x] Anasayfa için layout oluşturalım.
 - [x] Profil sayfası ve sekmeler için route ayarı
-- [ ] Anasayfa'daki card  componenti.
-- [ ] Giriş ve kayıt olma sayfaları  
+- [X] Anasayfa'daki card  componenti.
+- [X] Giriş ve kayıt olma sayfaları  
 - [ ] Kredi kartı ekleme sayfaları 
 - [ ] Araç ekleme sayfaları
 - [ ] İhale sayfaları

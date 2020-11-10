@@ -27,7 +27,7 @@
         >Açık Artırma</router-link
       >
     </div>
-    <Slide :closeOnNavigation="true">
+    <Slide :closeOnNavigation="true" >
       <a id="home" href="#">
         <span>Anasayfa</span>
       </a>
@@ -113,7 +113,7 @@ body > div > header > div.row > div.menuarea.col-md-3 > svg > path {
   color: white;
   padding: 14px 15px;
   border-radius: 20px;
-  width: 220px;
+  width: 290px;
   font-size: 16px;
 }
 .searchform ::placeholder {
