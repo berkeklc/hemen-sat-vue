@@ -51,7 +51,23 @@ strong,
 label {
   font-weight: 600;
 }
-
+.bm-burger-bars {
+  background-color: #ffffff;
+}
+.line-style {
+  height: 12%;
+  left: 0;
+  position: absolute;
+  right: 0;
+}
+.bm-burger-button {
+  cursor: pointer;
+  height: 30px;
+  left: 346px;
+  position: absolute;
+  top: 45px;
+  width: 36px;
+}
 @media only screen and (max-width: 600px) {
   .orangebg {
  display:none;

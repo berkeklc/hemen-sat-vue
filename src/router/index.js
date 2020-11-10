@@ -25,11 +25,11 @@ const routes = [
       import(/* webpackChunkName: "cardetail" */ "../views/cardetail")
   },
   {
-    path: "/register",
-    name: "Register",
+    path: "/login",
+    name: "Login",
 
     component: () =>
-      import(/* webpackChunkName: "register" */ "../views/register")
+      import(/* webpackChunkName: "login" */ "../views/login")
   },
   {
     path: "/profile",
