@@ -1,0 +1,19 @@
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114.955" height="114.955" viewBox="0 0 114.955 114.955">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc95b"/>
+      <stop offset="1" stop-color="#ff8b52"/>
+    </linearGradient>
+    <filter id="Oval" x="19.581" y="21.054" width="79.762" height="78.32" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-color="#f45a0f"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Path" d="M102.2,14.159l-.7-.7-.7-.7C92.665,4.907,79.207,0,57.478,0S22.43,4.907,14.159,12.757l-.7.7-.7.7C4.907,22.29,0,35.748,0,57.478S4.907,92.525,12.757,100.8l.7.7.7.7c8.131,7.851,21.589,12.757,43.318,12.757S92.525,110.048,100.8,102.2l.7-.7.7-.7c7.851-8.131,12.757-21.589,12.757-43.318S110.048,22.29,102.2,14.159Z" fill="url(#linear-gradient)"/>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Oval)">
+    <path id="Oval-2" data-name="Oval" d="M33.881,66.32A34.033,34.033,0,0,1,9.924,56.608a32.663,32.663,0,0,1,0-46.9,34.4,34.4,0,0,1,47.915,0,32.663,32.663,0,0,1,0,46.9A34.033,34.033,0,0,1,33.881,66.32ZM34.6,15.859a17.3,17.3,0,1,0,17.3,17.3A17.321,17.321,0,0,0,34.6,15.859Z" transform="translate(23.58 25.05)" fill="#fff"/>
+  </g>
+</svg>

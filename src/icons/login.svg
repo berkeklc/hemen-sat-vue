@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="374" height="53.954" viewBox="0 0 374 53.954">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffb05b"/>
+      <stop offset="1" stop-color="#ff8b52"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_17630" data-name="Group 17630" transform="translate(-20 -710)">
+    <rect id="Base" width="374" height="53.954" rx="21" transform="translate(20 710)" fill="url(#linear-gradient)"/>
+    <text id="Text" transform="translate(207 744)" fill="#fff" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-37.778" y="0">Giriş Yap</tspan></text>
+  </g>
+</svg>
