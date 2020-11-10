@@ -93,8 +93,33 @@
                   </div>
                 </b-col>
               </b-row>
-              <b-row>
-                <img src="@/assets/odemes.png" alt="" />
+              <b-row >
+                <b-col class="pays" md="5">
+                  <span
+                    >Sıfır <br />
+                    Değişen</span
+                  >
+                  <span
+                    >7 Gün <br />
+                    İade</span
+                  >
+                  <span
+                    >Bağımsız <br />
+                    Ekspertiz</span
+                  >
+                  <span
+                    >Yetki Belge <br />
+                    No: 4100055</span
+                  >
+                </b-col>
+                <b-col md="7" class="howtopay">
+                  <p class="howto">
+                    Nasıl ödeme yapabilirim?
+                  </p>
+                  <span>Kredi ile ödeme</span>
+                  <span>Kredi Kartı ile ödeme</span>
+                  <span>Havale / EFT</span>
+                </b-col>
               </b-row>
             </div>
           </div>
@@ -164,7 +189,7 @@
             İhale Detayı
           </h1></b-col
         >
-        <b-col md="12">
+        <b-col md="12" class="borderr">
           <b-row>
             <b-col md="4">
               <p>Üye23433 - <b-icon-clock></b-icon-clock> 12:50 08/11</p>
@@ -244,6 +269,32 @@ export default {
 </script>
 
 <style lang="scss">
+.howtopay span{
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.howto {
+  padding: 12px 15px;
+  background: #ffad5a;
+  width: fit-content;
+  border-radius: 46px;
+      display: unset;
+    float: left;
+}
+.pays span {
+  background: #f8f8f8;
+  border: 1px solid #ccc;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 20px;
+  float: left;
+  margin-right: 5px;
+}
+.borderr {
+  border: 1px solid #ccc;
+}
 .ihaleprice {
   font-size: 18px;
   text-align: center;
@@ -258,6 +309,7 @@ export default {
 .ihale .row {
   background: #f0f0f0;
   padding: 10px;
+  border-bottom: 1px solid #ccc;
 }
 .ihale .row:hover {
   background: #e1b98b;
@@ -289,7 +341,8 @@ export default {
   margin-right: 5px;
 }
 .vehicle-info {
-  margin-top: 30px;padding-left: 15px!important; 
+  margin-top: 30px;
+  padding-left: 15px !important;
 }
 .p0 {
   padding: 0;
