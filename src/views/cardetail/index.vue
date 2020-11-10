@@ -354,7 +354,7 @@ export default {
   color: #ffb05b;
   border: none;
   background-color: transparent;
-  font-size: 16px;
+  font-size: 14px;
   border-color: #dee2e6 #dee2e6 #fff;
 }
 .card-footer {
