@@ -75,7 +75,11 @@ a:hover {
   top: 50px;
   width: 36px;
 }
+.bm-overlay {
+  background: white;
+}
 @media only screen and (max-width: 600px) {
+  .tops{top:0!important;}
   .orangebg {
  display:none;
   }

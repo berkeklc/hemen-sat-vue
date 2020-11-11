@@ -38,7 +38,7 @@
 
       <p class="mt30">
         Henüz üye değilseniz
-        <router-link to="/register" class="regster">ÜYE OL!</router-link>
+        <router-link to="/login" class="regster">ÜYE OL!</router-link>
       </p>
     </b-container>
 

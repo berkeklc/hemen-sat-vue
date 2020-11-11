@@ -8,10 +8,10 @@
       </b-col>
     </b-row>
     <div class="menu">
-      <form class="searchform" action="">
+      <!--  <form class="searchform" action="">
         <input type="text" placeholder="Marka model ara " />
         <Search class="searchicon" />
-      </form>
+      </form>-->
     </div>
     <div class="memberside">
       <router-link to="/login" style="margin-right: 15px;"
@@ -20,16 +20,31 @@
       <router-link class="register" to="/login" style="margin-left: 15px;"
         >Kaydol</router-link
       >
-      <router-link
+      <!--    <router-link
         class="detail"
         to="/cardetail"
         style="margin-left: 15px;color:white;"
         >Açık Artırma</router-link
-      >
+      > -->
     </div>
-    <Slide :closeOnNavigation="true" >
+    <Slide :closeOnNavigation="true">
       <a id="home" href="#">
-        <span>Anasayfa</span>
+        <span>Geçmiş satışlar</span>
+      </a>
+       <a id="home" href="#">
+        <span>Otomobil iyatla</span>
+      </a>
+       <a id="home" href="#">
+        <span>Nasıl Çalışır?</span>
+      </a>
+       <a id="home" href="#">
+        <span>Lojistik Al</span>
+      </a>
+       <a id="home" href="#">
+        <span>Otomobil Al</span>
+      </a>
+       <a id="home" href="#">
+        <span>Otomobil Sat</span>
       </a>
     </Slide>
   </header>
@@ -37,15 +52,13 @@
 
 <script>
 import Iconlogo from "@/icons/logoyan.svg";
-import Search from "@/icons/search.svg";
 import { Slide } from "vue-burger-menu";
 
 export default {
   name: "MainHeader",
   components: {
     Iconlogo,
-    Slide,
-    Search
+    Slide
   }
 };
 </script>

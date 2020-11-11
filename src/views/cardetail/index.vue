@@ -93,7 +93,7 @@
                   </div>
                 </b-col>
               </b-row>
-              <b-row >
+              <b-row>
                 <b-col class="pays" md="5">
                   <span
                     >Sıfır <br />
@@ -116,9 +116,18 @@
                   <p class="howto">
                     Nasıl ödeme yapabilirim?
                   </p>
-                  <span>Kredi ile ödeme</span>
-                  <span>Kredi Kartı ile ödeme</span>
-                  <span>Havale / EFT</span>
+                  <span
+                    >Kredi ile <br />
+                    ödeme</span
+                  >
+                  <span
+                    >Kredi Kartı <br />
+                    ile ödeme</span
+                  >
+                  <span
+                    >Havale / <br />
+                    EFT</span
+                  >
                 </b-col>
               </b-row>
             </div>
@@ -269,19 +278,21 @@ export default {
 </script>
 
 <style lang="scss">
-.howtopay span{
+.howtopay span {
   padding: 10px 10px;
   text-align: center;
   border-radius: 20px;
   margin-right: 5px;
+  float: right;
 }
 .howto {
   padding: 12px 15px;
   background: #ffad5a;
   width: fit-content;
+  color: white;
   border-radius: 46px;
-      display: unset;
-    float: left;
+  display: unset;
+  float: left;
 }
 .pays span {
   background: #f8f8f8;
