@@ -26,7 +26,12 @@
           <router-link to="/login">İletişim </router-link> |
         </b-col>
         <b-col md="12" class="center social">
-          <b-icon-envelope></b-icon-envelope>
+          <b-icon-envelope style="  position: relative;    top: 3px;"></b-icon-envelope>
+          <facebook-icon size="1.5x" class="custom-class"></facebook-icon>
+          <twitter-icon size="1.5x" class="custom-class"></twitter-icon>
+          <you-tube-icon size="1.5x" class="custom-class"></you-tube-icon>
+          <instagram-icon size="1.5x" class="custom-class"></instagram-icon>
+          <linked-in-icon size="1.5x" class="custom-class"></linked-in-icon>
         </b-col>
         <b-col md="12" class="center platform">
           <img class="mr15" alt="banner" src="@/assets/appstore.png" />
@@ -45,16 +50,34 @@
 
 <script>
 import Footerlogo from "@/icons/logo.svg";
+import {
+  FacebookIcon,
+  TwitterIcon,
+  YouTubeIcon,
+  InstagramIcon,
+  LinkedInIcon
+} from "vue-brand-icons";
 
 export default {
   name: "Footer",
   components: {
-    Footerlogo
+    Footerlogo,
+    FacebookIcon,
+    TwitterIcon,
+    YouTubeIcon,
+    InstagramIcon,
+    LinkedInIcon
   }
 };
 </script>
 
 <style scoped>
+.social svg:first-child{font-size:18px;}
+.social svg {
+  fill: #ffa358;
+  margin-right: 15px;
+  font-size: 14px;
+}
 .platform {
   margin: 15px 0;
 }
