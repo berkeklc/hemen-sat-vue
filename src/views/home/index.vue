@@ -64,134 +64,137 @@
     </div>
     <b-container class="bv-example-row">
       <div>
-        <h1 class="mt-5" style="    margin-bottom: 20px;">Vitrin</h1>
+        <h1 style="    margin-bottom: 20px;">Vitrin</h1>
       </div>
       <b-row class="vitrincard">
-        <b-col cols="12" md="4"
-        > <router-link to="/cardetail">
-          <b-card
-            no-body
-            img-top
-            img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
-          >
-            <b-row class="favarea">
-              <b-col md="2"> <FavIcon /></b-col>
-              <b-col md="2"> <ShareIcon /></b-col>
-            </b-row>
-            <b-card-body>
-              <b-row>
-                <b-col md="6" no-gutters="true">
-                  <h1 class="cartitle">SEAT LEON 1.6</h1>
-                  <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
-                </b-col>
-                <b-col md="6" no-gutters="true" class="righttext">
-                  <h3 class="caroffer">Son Verilen Teklif</h3>
-                  <p class="price">100.000 ₺</p>
-                </b-col>
+        <b-col cols="12" md="4">
+          <router-link to="/cardetail">
+            <b-card
+              no-body
+              img-top
+              img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
+            >
+              <b-row class="favarea">
+                <b-col md="2"> <FavIcon /></b-col>
+                <b-col md="2"> <ShareIcon /></b-col>
               </b-row>
-              <b-col md="12" class="options">
-                <p>2017 - 80.555 KM - 34 DCD 54</p>
-              </b-col>
-              <b-col md="12" class="options">
-                <span>Benzin</span>
-                <span>Otomatik</span>
-              </b-col>
-              <vac :left-time="172800000" class="ort">
-                <template v-slot:process="{ timeObj }">
-                  <span>{{
-                    ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
-                  }}</span>
-                </template>
-                <template v-slot:finish>
-                  <span>Bitti!</span>
-                </template>
-              </vac>
-            </b-card-body>
-          </b-card> </router-link> 
+              <b-card-body>
+                <b-row>
+                  <b-col md="6" no-gutters="true">
+                    <h1 class="cartitle">SEAT LEON 1.6</h1>
+                    <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
+                  </b-col>
+                  <b-col md="6" no-gutters="true" class="righttext">
+                    <h3 class="caroffer">Son Verilen Teklif</h3>
+                    <p class="price">100.000 ₺</p>
+                  </b-col>
+                </b-row>
+                <b-col md="12" class="options">
+                  <p>2017 - 80.555 KM - 34 DCD 54</p>
+                </b-col>
+                <b-col md="12" class="options">
+                  <span>Benzin</span>
+                  <span>Otomatik</span>
+                </b-col>
+                <vac :left-time="172800000" class="ort">
+                  <template v-slot:process="{ timeObj }">
+                    <span>{{
+                      ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
+                    }}</span>
+                  </template>
+                  <template v-slot:finish>
+                    <span>Bitti!</span>
+                  </template>
+                </vac>
+              </b-card-body>
+            </b-card>
+          </router-link>
         </b-col>
         <b-col cols="12" md="4">
-           <router-link to="/cardetail">
-          <b-card
-            no-body
-            img-top
-            img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
-          >
-            <b-row class="favarea">
-              <b-col md="2"> <FavIcon /></b-col>
-              <b-col md="2"> <ShareIcon /></b-col>
-            </b-row>
-            <b-card-body>
-              <b-row>
-                <b-col md="6" no-gutters="true">
-                  <h1 class="cartitle">SEAT LEON 1.6</h1>
-                  <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
-                </b-col>
-                <b-col md="6" no-gutters="true" class="righttext">
-                  <h3 class="caroffer">Son Verilen Teklif</h3>
-                  <p class="price">100.000 ₺</p>
-                </b-col>
+          <router-link to="/cardetail">
+            <b-card
+              no-body
+              img-top
+              img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
+            >
+              <b-row class="favarea">
+                <b-col md="2"> <FavIcon /></b-col>
+                <b-col md="2"> <ShareIcon /></b-col>
               </b-row>
-              <b-col md="12" class="options">
-                <p>2017 - 80.555 KM - 34 DCD 54</p>
-              </b-col>
-              <b-col md="12" class="options">
-                <span>Benzin</span>
-                <span>Otomatik</span>
-              </b-col>
-              <vac :left-time="172800000" class="ort">
-                <template v-slot:process="{ timeObj }">
-                  <span>{{
-                    ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
-                  }}</span>
-                </template>
-                <template v-slot:finish>
-                  <span>Bitti!</span>
-                </template>
-              </vac>
-            </b-card-body>
-          </b-card></router-link> 
+              <b-card-body>
+                <b-row>
+                  <b-col md="6" no-gutters="true">
+                    <h1 class="cartitle">SEAT LEON 1.6</h1>
+                    <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
+                  </b-col>
+                  <b-col md="6" no-gutters="true" class="righttext">
+                    <h3 class="caroffer">Son Verilen Teklif</h3>
+                    <p class="price">100.000 ₺</p>
+                  </b-col>
+                </b-row>
+                <b-col md="12" class="options">
+                  <p>2017 - 80.555 KM - 34 DCD 54</p>
+                </b-col>
+                <b-col md="12" class="options">
+                  <span>Benzin</span>
+                  <span>Otomatik</span>
+                </b-col>
+                <vac :left-time="172800000" class="ort">
+                  <template v-slot:process="{ timeObj }">
+                    <span>{{
+                      ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
+                    }}</span>
+                  </template>
+                  <template v-slot:finish>
+                    <span>Bitti!</span>
+                  </template>
+                </vac>
+              </b-card-body>
+            </b-card></router-link
+          >
         </b-col>
         <b-col cols="12" md="4">
-           <router-link to="/cardetail">
-          <b-card
-            no-body
-            img-top
-            img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
-          >
-            <b-row class="favarea">
-              <b-col md="2"> <FavIcon /></b-col>
-              <b-col md="2"> <ShareIcon /></b-col>
-            </b-row>
-            <b-card-body>
-              <b-row>
-                <b-col md="6" no-gutters="true">
-                  <h1 class="cartitle">SEAT LEON 1.6</h1>
-                  <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
-                </b-col>
-                <b-col md="6" no-gutters="true" class="righttext">
-                  <h3 class="caroffer">Son Verilen Teklif</h3>
-                  <p class="price">100.000 ₺</p>
-                </b-col>
+          <router-link to="/cardetail">
+            <b-card
+              no-body
+              img-top
+              img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
+            >
+              <b-row class="favarea">
+                <b-col md="2"> <FavIcon /></b-col>
+                <b-col md="2"> <ShareIcon /></b-col>
               </b-row>
-              <b-col md="12" class="options">
-                <p>2017 - 80.555 KM - 34 DCD 54</p>
-              </b-col>
-              <b-col md="12" class="options">
-                <span>Benzin</span>
-                <span>Otomatik</span>
-              </b-col>
-              <vac :left-time="172800000" class="ort">
-                <template v-slot:process="{ timeObj }">
-                  <span>{{
-                    ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
-                  }}</span>
-                </template>
-                <template v-slot:finish>
-                  <span>Bitti!</span>
-                </template>
-              </vac>
-            </b-card-body>
-          </b-card></router-link> 
+              <b-card-body>
+                <b-row>
+                  <b-col md="6" no-gutters="true">
+                    <h1 class="cartitle">SEAT LEON 1.6</h1>
+                    <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
+                  </b-col>
+                  <b-col md="6" no-gutters="true" class="righttext">
+                    <h3 class="caroffer">Son Verilen Teklif</h3>
+                    <p class="price">100.000 ₺</p>
+                  </b-col>
+                </b-row>
+                <b-col md="12" class="options">
+                  <p>2017 - 80.555 KM - 34 DCD 54</p>
+                </b-col>
+                <b-col md="12" class="options">
+                  <span>Benzin</span>
+                  <span>Otomatik</span>
+                </b-col>
+                <vac :left-time="172800000" class="ort">
+                  <template v-slot:process="{ timeObj }">
+                    <span>{{
+                      ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
+                    }}</span>
+                  </template>
+                  <template v-slot:finish>
+                    <span>Bitti!</span>
+                  </template>
+                </vac>
+              </b-card-body>
+            </b-card></router-link
+          >
         </b-col>
       </b-row>
       <div>
@@ -199,130 +202,133 @@
       </div>
       <b-row class="vitrincard">
         <b-col cols="12" md="4">
-           <router-link to="/cardetail">
-          <b-card
-            no-body
-            img-top
-            img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
-          >
-            <b-row class="favarea">
-              <b-col md="2"> <FavIcon /></b-col>
-              <b-col md="2"> <ShareIcon /></b-col>
-            </b-row>
-            <b-card-body>
-              <b-row>
-                <b-col md="6" no-gutters="true">
-                  <h1 class="cartitle">SEAT LEON 1.6</h1>
-                  <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
-                </b-col>
-                <b-col md="6" no-gutters="true" class="righttext">
-                  <h3 class="caroffer">Son Verilen Teklif</h3>
-                  <p class="price">100.000 ₺</p>
-                </b-col>
+          <router-link to="/cardetail">
+            <b-card
+              no-body
+              img-top
+              img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
+            >
+              <b-row class="favarea">
+                <b-col md="2"> <FavIcon /></b-col>
+                <b-col md="2"> <ShareIcon /></b-col>
               </b-row>
-              <b-col md="12" class="options">
-                <p>2017 - 80.555 KM - 34 DCD 54</p>
-              </b-col>
-              <b-col md="12" class="options">
-                <span>Benzin</span>
-                <span>Otomatik</span>
-              </b-col>
-              <vac :left-time="172800000" class="ort">
-                <template v-slot:process="{ timeObj }">
-                  <span>{{
-                    ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
-                  }}</span>
-                </template>
-                <template v-slot:finish>
-                  <span>Bitti!</span>
-                </template>
-              </vac>
-            </b-card-body>
-          </b-card></router-link> 
+              <b-card-body>
+                <b-row>
+                  <b-col md="6" no-gutters="true">
+                    <h1 class="cartitle">SEAT LEON 1.6</h1>
+                    <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
+                  </b-col>
+                  <b-col md="6" no-gutters="true" class="righttext">
+                    <h3 class="caroffer">Son Verilen Teklif</h3>
+                    <p class="price">100.000 ₺</p>
+                  </b-col>
+                </b-row>
+                <b-col md="12" class="options">
+                  <p>2017 - 80.555 KM - 34 DCD 54</p>
+                </b-col>
+                <b-col md="12" class="options">
+                  <span>Benzin</span>
+                  <span>Otomatik</span>
+                </b-col>
+                <vac :left-time="172800000" class="ort">
+                  <template v-slot:process="{ timeObj }">
+                    <span>{{
+                      ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
+                    }}</span>
+                  </template>
+                  <template v-slot:finish>
+                    <span>Bitti!</span>
+                  </template>
+                </vac>
+              </b-card-body>
+            </b-card></router-link
+          >
         </b-col>
         <b-col cols="12" md="4">
-           <router-link to="/cardetail">
-          <b-card
-            no-body
-            img-top
-            img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
-          >
-            <b-row class="favarea">
-              <b-col md="2"> <FavIcon /></b-col>
-              <b-col md="2"> <ShareIcon /></b-col>
-            </b-row>
-            <b-card-body>
-              <b-row>
-                <b-col md="6" no-gutters="true">
-                  <h1 class="cartitle">SEAT LEON 1.6</h1>
-                  <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
-                </b-col>
-                <b-col md="6" no-gutters="true" class="righttext">
-                  <h3 class="caroffer">Son Verilen Teklif</h3>
-                  <p class="price">100.000 ₺</p>
-                </b-col>
+          <router-link to="/cardetail">
+            <b-card
+              no-body
+              img-top
+              img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
+            >
+              <b-row class="favarea">
+                <b-col md="2"> <FavIcon /></b-col>
+                <b-col md="2"> <ShareIcon /></b-col>
               </b-row>
-              <b-col md="12" class="options">
-                <p>2017 - 80.555 KM - 34 DCD 54</p>
-              </b-col>
-              <b-col md="12" class="options">
-                <span>Benzin</span>
-                <span>Otomatik</span>
-              </b-col>
-              <vac :left-time="172800000" class="ort">
-                <template v-slot:process="{ timeObj }">
-                  <span>{{
-                    ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
-                  }}</span>
-                </template>
-                <template v-slot:finish>
-                  <span>Bitti!</span>
-                </template>
-              </vac>
-            </b-card-body>
-          </b-card></router-link> 
+              <b-card-body>
+                <b-row>
+                  <b-col md="6" no-gutters="true">
+                    <h1 class="cartitle">SEAT LEON 1.6</h1>
+                    <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
+                  </b-col>
+                  <b-col md="6" no-gutters="true" class="righttext">
+                    <h3 class="caroffer">Son Verilen Teklif</h3>
+                    <p class="price">100.000 ₺</p>
+                  </b-col>
+                </b-row>
+                <b-col md="12" class="options">
+                  <p>2017 - 80.555 KM - 34 DCD 54</p>
+                </b-col>
+                <b-col md="12" class="options">
+                  <span>Benzin</span>
+                  <span>Otomatik</span>
+                </b-col>
+                <vac :left-time="172800000" class="ort">
+                  <template v-slot:process="{ timeObj }">
+                    <span>{{
+                      ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
+                    }}</span>
+                  </template>
+                  <template v-slot:finish>
+                    <span>Bitti!</span>
+                  </template>
+                </vac>
+              </b-card-body>
+            </b-card></router-link
+          >
         </b-col>
         <b-col cols="12" md="4">
-           <router-link to="/cardetail">
-          <b-card
-            no-body
-            img-top
-            img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
-          >
-            <b-row class="favarea">
-              <b-col md="2"> <FavIcon /></b-col>
-              <b-col md="2"> <ShareIcon /></b-col>
-            </b-row>
-            <b-card-body>
-              <b-row>
-                <b-col md="6" no-gutters="true">
-                  <h1 class="cartitle">SEAT LEON 1.6</h1>
-                  <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
-                </b-col>
-                <b-col md="6" no-gutters="true" class="righttext">
-                  <h3 class="caroffer">Son Verilen Teklif</h3>
-                  <p class="price">100.000 ₺</p>
-                </b-col>
+          <router-link to="/cardetail">
+            <b-card
+              no-body
+              img-top
+              img-src="https://www.rentacar34.com/wp-content/uploads/2016/12/jetta.png"
+            >
+              <b-row class="favarea">
+                <b-col md="2"> <FavIcon /></b-col>
+                <b-col md="2"> <ShareIcon /></b-col>
               </b-row>
-              <b-col md="12" class="options">
-                <p>2017 - 80.555 KM - 34 DCD 54</p>
-              </b-col>
-              <b-col md="12" class="options">
-                <span>Benzin</span>
-                <span>Otomatik</span>
-              </b-col>
-              <vac :left-time="172800000" class="ort">
-                <template v-slot:process="{ timeObj }">
-                  <span>{{
-                    ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
-                  }}</span>
-                </template>
-                <template v-slot:finish>
-                  <span>Bitti!</span>
-                </template>
-              </vac>
-            </b-card-body>
-          </b-card></router-link> 
+              <b-card-body>
+                <b-row>
+                  <b-col md="6" no-gutters="true">
+                    <h1 class="cartitle">SEAT LEON 1.6</h1>
+                    <p class="carmodal">TDI 115 HP STYLE SS DSG</p>
+                  </b-col>
+                  <b-col md="6" no-gutters="true" class="righttext">
+                    <h3 class="caroffer">Son Verilen Teklif</h3>
+                    <p class="price">100.000 ₺</p>
+                  </b-col>
+                </b-row>
+                <b-col md="12" class="options">
+                  <p>2017 - 80.555 KM - 34 DCD 54</p>
+                </b-col>
+                <b-col md="12" class="options">
+                  <span>Benzin</span>
+                  <span>Otomatik</span>
+                </b-col>
+                <vac :left-time="172800000" class="ort">
+                  <template v-slot:process="{ timeObj }">
+                    <span>{{
+                      ` ${timeObj.d} Gün ${timeObj.h} sa ${timeObj.m} dk ${timeObj.s} sn kaldı`
+                    }}</span>
+                  </template>
+                  <template v-slot:finish>
+                    <span>Bitti!</span>
+                  </template>
+                </vac>
+              </b-card-body>
+            </b-card></router-link
+          >
         </b-col>
       </b-row>
     </b-container>
@@ -382,13 +388,15 @@ export default {
       this.$nextTick(() => {
         this.show = true;
       });
-    } 
+    }
   }
 };
 </script>
 
 <style scoped>
-a:hover{text-decoration:none;}
+a:hover {
+  text-decoration: none;
+}
 .btn-primary:not(:disabled):not(.disabled):active,
 .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
