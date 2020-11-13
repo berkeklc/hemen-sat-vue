@@ -14,7 +14,7 @@
       </form>-->
     </div>
     <div class="memberside">
-      <router-link to="/login" style="margin-right: 15px;"
+      <router-link to="/login" style="margin-right: 15px;color:black;"
         >Oturum Aç</router-link
       >
       <router-link class="register" to="/login" style="margin-left: 15px;"
@@ -27,38 +27,38 @@
         >Açık Artırma</router-link
       > -->
     </div>
-    <Slide :closeOnNavigation="true">
+    <PushRotate :closeOnNavigation="true">
       <a id="home" href="#">
         <span>Geçmiş satışlar</span>
       </a>
-       <a id="home" href="#">
+      <a id="home" href="#">
         <span>Otomobil iyatla</span>
       </a>
-       <a id="home" href="#">
+      <a id="home" href="#">
         <span>Nasıl Çalışır?</span>
       </a>
-       <a id="home" href="#">
+      <a id="home" href="#">
         <span>Lojistik Al</span>
       </a>
-       <a id="home" href="#">
+      <a id="home" href="#">
         <span>Otomobil Al</span>
       </a>
-       <a id="home" href="#">
+      <a id="home" href="#">
         <span>Otomobil Sat</span>
       </a>
-    </Slide>
+    </PushRotate>
   </header>
 </template>
 
 <script>
 import Iconlogo from "@/icons/logoyan.svg";
-import { Slide } from "vue-burger-menu";
+import { PushRotate } from "vue-burger-menu";
 
 export default {
   name: "MainHeader",
   components: {
     Iconlogo,
-    Slide
+    PushRotate
   }
 };
 </script>
@@ -103,10 +103,11 @@ body > div > header > div.row > div.menuarea.col-md-3 > svg > path {
 }
 .memberside a {
   text-decoration: none;
+  color: #ffad5a;
 }
 .memberside a:hover {
   text-decoration: none;
-  color: white;
+  color: #ffad5a;
 }
 .memberside {
   font-family: poppins;

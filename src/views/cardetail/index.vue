@@ -370,7 +370,7 @@ export default {
 }
 .m129{    margin-top: 129px;}
 .m50 {
-  margin-top: 60px;
+  margin-top: 50px;
 }
 .mb50 {
   margin-bottom: 50px;
@@ -392,8 +392,8 @@ export default {
 #__BVID__23__BV_tab_controls_ > li:nth-child(2) {
   border: 1px solid #ccc;
   border-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
@@ -486,11 +486,10 @@ body
 body > div > div > header > div.row > div.menuarea.col-md-3 > svg > path {
   fill: #ffad5a;
 }
-.header {
-  box-shadow: 1px 1px 20px #00000014;
-}
+
 .ic {
   background: #fff;
+  box-shadow: 1px 1px 20px #00000014;
   color: #ffad5a;
 }
 .ic .memberside {

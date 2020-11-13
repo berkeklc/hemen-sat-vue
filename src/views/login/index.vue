@@ -26,10 +26,7 @@
           >
         </b-col>
         <b-col md="6">
-          <router-link
-            class="register"
-            to="/register"
-            style="margin-left: 15px;"
+          <router-link class="register" to="/login" style="margin-left: 15px;"
             >Şifremi Unuttum</router-link
           >
         </b-col>
@@ -160,12 +157,11 @@ body
 body > div > div > header > div.row > div.menuarea.col-md-3 > svg > path {
   fill: #ffad5a;
 }
-.header {
-  box-shadow: 1px 1px 20px #00000014;
-}
 .ic {
   background: #fff;
   color: #ffad5a;
+  box-shadow: 1px 1px 20px #00000014;
+
 }
 .ic .memberside {
   color: #ffad5a;

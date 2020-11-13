@@ -1,7 +1,14 @@
 <template>
   <div class="home">
-    <img class="banner" alt="banner" src="@/assets/bannerr.png" />
-    <OrangeBg width="1920" class="orangebg" />
+    <b-container fluid class="p0 bgry">
+      <b-col md="8" cols="12" class="area"></b-col>
+      <b-col md="4" class="poz">
+        <h1 class="slogan">Hikayeni yaşa</h1>
+        <Slogan />
+      </b-col>
+
+      <img class="tesla" alt="banner" src="@/assets/tesla.png" />
+    </b-container>
     <div>
       <b-form @submit="onSubmit" @reset="onReset" v-if="show">
         <b-container class="tops ">
@@ -56,7 +63,10 @@
                 ></b-form-select> </b-form-group
             ></b-col>
             <b-button type="submit" variant="primary"
-              >Ara <b-icon-check2 style="    color: orange;"></b-icon-check2
+              >Ara
+              <b-icon-check2
+                style="       font-size: 21px; color: orange;"
+              ></b-icon-check2
             ></b-button>
           </b-row>
         </b-container>
@@ -338,8 +348,8 @@
 
 <script>
 // @ is an alias to /src
-import OrangeBg from "@/icons/orangebg.svg";
 import FavIcon from "@/icons/fav.svg";
+import Slogan from "@/icons/slogan.svg";
 import ShareIcon from "@/icons/share.svg";
 import MasterFooter from "@/components/Footer";
 
@@ -347,16 +357,16 @@ export default {
   name: "Home",
   components: {
     MasterFooter,
-    OrangeBg,
     FavIcon,
+    Slogan,
     ShareIcon
   },
   data() {
     return {
       form: {
-        email: "",
-        name: "",
-        food: null,
+        marka: null,
+        model: null,
+        yil: null,
         checked: []
       },
       marka: [
@@ -379,8 +389,8 @@ export default {
     onReset(evt) {
       evt.preventDefault();
       // Reset our form values
-      this.form.yil = "";
-      this.form.model = "";
+      this.form.yil = null;
+      this.form.model = null;
       this.form.marka = null;
       this.form.checked = [];
       // Trick to reset/clear native browser form validation state
@@ -394,6 +404,48 @@ export default {
 </script>
 
 <style scoped>
+.custom-select {
+  border: 0;
+  border-right: 1px solid #ccc;
+}
+.d-block {
+  display: block !important;
+  font-size: 12px;
+}
+.poz {
+  position: absolute;
+  top: 370px;
+  z-index: 9;
+  color: white;
+  text-align: left;
+  left: 130px;
+  font-weight: unset;
+}
+.slogan {
+  font-weight: 300;
+  font-size: 58px;
+}
+
+.bgry {
+  background: #e3dedb78;
+  height: 100vh;
+  overflow: hidden;
+}
+.p0 {
+  padding: 0;
+}
+.area {
+  background: #f9a867;
+  flex: 0 0 65%;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+  transform: translate(0%);
+  height: 150vh;
+  position: relative;
+  top: -170px;
+  z-index: 1;
+  transition: 0.3s all cubic-bezier(0.58, 0.2, 0.39, 0.96);
+}
 a:hover {
   text-decoration: none;
 }
@@ -420,38 +472,40 @@ a:hover {
 .show > .btn-danger.dropdown-toggle {
   background: white;
   color: black;
-  border: 00px solid #3d3d3d;
-  border-bottom: 0;
+  border: 8px solid rgb(0 0 0 / 41%);
   /* margin-left: -15px; */
   padding: 10px 45px;
-  border-bottom: 3px solid white;
+  border-bottom: 0px solid white;
   position: relative;
-  top: 9px;
-  left: -14px;
+  top: 8px;
+  left: -15px;
+  z-index: 99999;
 }
 .clear {
   background: white;
   color: black;
-  border: 00px solid #3d3d3d;
-  border-bottom: 0;
+  border: 8px solid rgb(0 0 0 / 41%);
   /* margin-left: -15px; */
   padding: 10px 45px;
-  border-bottom: 3px solid white;
+  border-bottom: 0px solid white;
   position: relative;
-  top: 10px;
+  top: 8px;
   left: -15px;
-  border-radius: 0;
-  border-top-right-radius: 25px;
+  z-index: 99999;
 }
 .bgform {
   background: white;
   padding: 15px;
   border-radius: 13px;
-  border: 0px solid rgb(0 0 0 / 76%);
+  border: 8px solid rgb(0 0 0 / 41%);
+  z-index: 999;
+  position: relative;
+  border-top: 1;
+  border-radius: 0;
 }
 .tops {
   position: relative;
-  top: -230px;
+  top: -200px;
 }
 .ort span {
   font-family: poppins;

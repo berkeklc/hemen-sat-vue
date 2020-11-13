@@ -78,12 +78,37 @@ a:hover {
 .bm-overlay {
   background: white;
 }
+.tesla {
+  position: absolute;
+  top: 125px;
+  z-index: 9;
+  right: 260px;
+}
+body > div > div > .ic > div.row > div > a > svg > g > g > path{    fill: #ffa358;}
+@media only screen and (max-width: 1677px) {.tesla {
+  position: absolute;
+  top: 125px;
+  z-index: 9;
+  right: 140px;
+}}
 @media only screen and (max-width: 600px) {
+
+  .area{border-radius: 0!important;}
+  .tesla {
+    position: absolute;
+    top: 250px;
+    z-index: 9; 
+    right: 0;
+}
+
   .tops{top:0!important;}
   .orangebg {
  display:none;
   }
-  .register{display:none;}
+  .register{
+    background: white!important;
+}
+  .poz{display:none;}
   .menu {
     display: none;
   }
