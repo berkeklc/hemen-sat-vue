@@ -252,7 +252,13 @@
               </b-card>
             </b-tab>
             <b-tab title="Araç Hakkında">
-              <b-card-text>Tab contents 2</b-card-text>
+              <b-card-text> <b>Marka : </b> VOLKSWAGEN </b-card-text>
+              <b-card-text> <b>Model Yılı : </b> 2017 </b-card-text>
+              <b-card-text> <b>Vites Tipi : </b> Otomatik </b-card-text>
+              <b-card-text> <b>Motor Hacmi : </b> 1598 </b-card-text>
+              <b-card-text> <b>Kilometre : </b> 67544 </b-card-text>
+              <b-card-text> <b>Motor Numarası : </b> DCx05** </b-card-text>
+              <b-card-text> <b>Hasar Beyanı : </b> YOK </b-card-text>
             </b-tab>
           </b-tabs>
         </b-card>
