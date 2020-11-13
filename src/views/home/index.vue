@@ -472,7 +472,7 @@ a:hover {
 .show > .btn-danger.dropdown-toggle {
   background: white;
   color: black;
-  border: 8px solid rgb(0 0 0 / 41%);
+  border: 8px solid rgb(0 0 0 / 64%);
   /* margin-left: -15px; */
   padding: 10px 45px;
   border-bottom: 0px solid white;
@@ -484,7 +484,7 @@ a:hover {
 .clear {
   background: white;
   color: black;
-  border: 8px solid rgb(0 0 0 / 41%);
+  border: 8px solid rgb(0 0 0 / 64%);
   /* margin-left: -15px; */
   padding: 10px 45px;
   border-bottom: 0px solid white;
@@ -497,7 +497,7 @@ a:hover {
   background: white;
   padding: 15px;
   border-radius: 13px;
-  border: 8px solid rgb(0 0 0 / 41%);
+  border: 8px solid rgb(0 0 0 / 64%);
   z-index: 999;
   position: relative;
   border-top: 1;
