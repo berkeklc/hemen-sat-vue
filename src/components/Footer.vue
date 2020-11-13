@@ -26,7 +26,9 @@
           <router-link to="/login">İletişim </router-link> |
         </b-col>
         <b-col md="12" class="center social">
-          <b-icon-envelope style="  position: relative;    top: 3px;"></b-icon-envelope>
+          <b-icon-envelope
+            style="  position: relative;    top: 3px;"
+          ></b-icon-envelope>
           <facebook-icon size="1.5x" class="custom-class"></facebook-icon>
           <twitter-icon size="1.5x" class="custom-class"></twitter-icon>
           <you-tube-icon size="1.5x" class="custom-class"></you-tube-icon>
@@ -72,7 +74,9 @@ export default {
 </script>
 
 <style scoped>
-.social svg:first-child{font-size:18px;}
+.social svg:first-child {
+  font-size: 18px;
+}
 .social svg {
   fill: #ffa358;
   margin-right: 15px;

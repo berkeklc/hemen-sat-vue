@@ -2,7 +2,7 @@
   <div class="app">
     <MasterHeader class="ic" />
     <router-view />
-    <b-container class="bannertop">
+    <b-container fluid class="bannertop">
       <b-carousel
         id="carousel-1"
         v-model="slide"
@@ -26,6 +26,8 @@
         >
         </b-carousel-slide>
       </b-carousel>
+    </b-container>
+    <b-container class="m129">
       <div class="container-12">
         <div class="grid-12">
           <div class="auction-table-wrap">
@@ -135,64 +137,8 @@
         </div>
       </div>
     </b-container>
-
-    <div>
-      <div>
-        <b-card no-body class="container m50 mb50">
-          <b-tabs card>
-            <b-tab title="Ekspertiz Raporu" active>
-              <b-card no-body class="borderle">
-                <b-tabs card>
-                  <b-tab no-body title="Geçmiş Durum" class="center">
-                    <p class="mt10">Üst Profil</p>
-
-                    <Caricon />
-                  </b-tab>
-
-                  <b-tab no-body class="center" title="Dış">
-                    <b-card-img
-                      class="dis"
-                      bottom
-                      src="https://file.ikinciyeni.com/CarPhotos/34RN4179/ExpertiseImage/ikinci-el-satilik-audi-a4-7-72095d.jpg"
-                      alt="Image 25"
-                    ></b-card-img>
-                  </b-tab>
-
-                  <b-tab no-body title="İç" class="center">
-                    <b-card-img
-                      class="icresim"
-                      bottom
-                      src="https://file.ikinciyeni.com/CarPhotos/34RN4179/ExpertiseImage/ikinci-el-satilik-audi-a4-26-3836a0.jpg"
-                      alt="Image 26"
-                    ></b-card-img>
-                  </b-tab>
-
-                  <b-tab title="Mekanik">
-                    <b-card-title
-                      >Buraya <code>Özellikler</code> Geliceks</b-card-title
-                    >
-                    <b-card-text>
-                      Quis magna Lorem anim amet ipsum do mollit sit cillum
-                      voluptate ex nulla tempor. Laborum consequat non elit enim
-                      exercitation cillum aliqua consequat id aliqua. Esse ex
-                      consectetur mollit voluptate est in duis laboris ad sit
-                      ipsum anim Lorem. Incididunt veniam velit elit elit veniam
-                      Lorem aliqua quis ullamco deserunt sit enim elit aliqua
-                      esse irure.
-                    </b-card-text>
-                  </b-tab>
-                </b-tabs>
-              </b-card>
-            </b-tab>
-            <b-tab title="Araç Hakkında">
-              <b-card-text>Tab contents 2</b-card-text>
-            </b-tab>
-          </b-tabs>
-        </b-card>
-      </div>
-    </div>
     <b-container>
-      <b-row class="ihale mb50">
+      <b-row class="ihale m50 mb50">
         <b-col md="12" class="p0"
           ><h1>
             İhale Detayı
@@ -257,6 +203,61 @@
         </b-col>
       </b-row>
     </b-container>
+    <div>
+      <div>
+        <b-card no-body class="container ">
+          <b-tabs card>
+            <b-tab title="Ekspertiz Raporu" active>
+              <b-card no-body class="borderle">
+                <b-tabs card>
+                  <b-tab no-body title="Geçmiş Durum" class="center">
+                    <p class="mt10">Üst Profil</p>
+
+                    <Caricon />
+                  </b-tab>
+
+                  <b-tab no-body class="center" title="Dış">
+                    <b-card-img
+                      class="dis"
+                      bottom
+                      src="https://file.ikinciyeni.com/CarPhotos/34RN4179/ExpertiseImage/ikinci-el-satilik-audi-a4-7-72095d.jpg"
+                      alt="Image 25"
+                    ></b-card-img>
+                  </b-tab>
+
+                  <b-tab no-body title="İç" class="center">
+                    <b-card-img
+                      class="icresim"
+                      bottom
+                      src="https://file.ikinciyeni.com/CarPhotos/34RN4179/ExpertiseImage/ikinci-el-satilik-audi-a4-26-3836a0.jpg"
+                      alt="Image 26"
+                    ></b-card-img>
+                  </b-tab>
+
+                  <b-tab title="Mekanik">
+                    <b-card-title
+                      >Buraya <code>Özellikler</code> Geliceks</b-card-title
+                    >
+                    <b-card-text>
+                      Quis magna Lorem anim amet ipsum do mollit sit cillum
+                      voluptate ex nulla tempor. Laborum consequat non elit enim
+                      exercitation cillum aliqua consequat id aliqua. Esse ex
+                      consectetur mollit voluptate est in duis laboris ad sit
+                      ipsum anim Lorem. Incididunt veniam velit elit elit veniam
+                      Lorem aliqua quis ullamco deserunt sit enim elit aliqua
+                      esse irure.
+                    </b-card-text>
+                  </b-tab>
+                </b-tabs>
+              </b-card>
+            </b-tab>
+            <b-tab title="Araç Hakkında">
+              <b-card-text>Tab contents 2</b-card-text>
+            </b-tab>
+          </b-tabs>
+        </b-card>
+      </div>
+    </div>
 
     <MasterFooter />
   </div>
@@ -367,15 +368,17 @@ export default {
   text-decoration: none;
   color: #ffad5a;
 }
+.m129{    margin-top: 129px;}
 .m50 {
-  margin-top: 200px;
+  margin-top: 60px;
 }
 .mb50 {
   margin-bottom: 50px;
 }
 .bannertop {
   position: relative;
-  top: 186px;
+  top: 128px;
+  padding: 0;
 }
 .mt10 {
   margin-top: 30px;
