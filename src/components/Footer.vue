@@ -74,6 +74,7 @@ export default {
 </script>
 
 <style scoped>
+body > div > div > footer > div > div > div:nth-child(1) > svg > g > g > text > tspan{font-size:176px}
 .social svg:first-child {
   font-size: 18px;
 }
